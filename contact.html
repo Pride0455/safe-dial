@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact SafeDial | Send an Enquiry</title>
+  <meta name="description" content="Contact the SafeDial team with questions about the emergency-access concept, a code demonstration or a potential partnership.">
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="logo" href="index%20.html" aria-label="SafeDial home"><img src="logo.jpg" alt="" width="1232" height="862"><span>SafeDial</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav"><span class="visually-hidden">Toggle navigation</span><span aria-hidden="true">&#9776;</span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation"><ul><li><a href="index%20.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html" aria-current="page">Contact</a></li><li><a href="marketing.html">Marketing Plan</a></li></ul></nav>
+  </div></header>
+  <main id="main">
+    <section class="section"><div class="container two-col">
+      <div><h1>Contact SafeDial</h1><p class="lead">Send a question about this concept and we’ll reply within two working days.</p>
+        <p class="notice">This form validates your message and opens your email application with a draft addressed to SafeDial. Your message is not sent until you send that draft.</p>
+        <form id="contact-form" novalidate>
+          <div class="field"><label for="name">Full name</label><input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error"><p class="error" id="name-error" role="alert"></p></div>
+          <div class="field"><label for="email">Email address</label><input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error"><p class="error" id="email-error" role="alert"></p></div>
+          <div class="field"><label for="topic">Topic</label><select id="topic" name="topic" required aria-describedby="topic-error"><option value="">Choose a topic</option><option>General question</option><option>Report a problem with the concept</option><option>Partnership or media enquiry</option></select><p class="error" id="topic-error" role="alert"></p></div>
+          <div class="field"><label for="message">Message (at least 10 characters)</label><textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea><p class="error" id="message-error" role="alert"></p></div>
+          <button type="submit" class="btn btn-primary">Prepare email</button>
+          <p id="form-status" class="success" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <aside><h2>Contact details</h2><ul><li>Email: <a href="mailto:safedial25@gmail.com">safedial25@gmail.com</a></li><li>Phone: <a href="tel:+27861723334">+27 86 172 3334</a></li><li>Serving South Africa online and by phone</li></ul><p><strong>Not for emergencies.</strong> Call 112 from a mobile, 10111 for police, or 10177 for an ambulance.</p></aside>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><p class="logo">SafeDial</p><p>Safety in your pocket, help one dial away.</p></div><nav aria-label="Footer navigation"><ul><li><a href="index%20.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="marketing.html">Marketing Plan</a></li></ul></nav><p><strong>Not for emergencies.</strong> Call 112, 10111 or 10177 in a real emergency.</p></div><div class="container"><p class="disclaimer">SafeDial is a fictional concept demonstration. Its codes do not contact real emergency services. &copy; 2026 SafeDial.</p></div></footer>
+</body>
+</html>
